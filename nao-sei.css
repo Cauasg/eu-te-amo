@@ -1,0 +1,29 @@
+*{font-family: 'Josefin Sans', sans-serif;}
+button{
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    height: 150px;
+    font-size: 32px;
+}
+button:hover{cursor:pointer}
+#text p{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+#text{
+    display: block; 
+    margin: 0 auto; 
+    width: 75%;
+    text-align: center;
+}
+#text span{color: #bd0e0e;}
+#text span::after{
+    content: "";
+    background-color: #ccc;
+    width: 20%;
+    height: 1px;
+    display: block;
+    margin: 20px auto ;
+}
